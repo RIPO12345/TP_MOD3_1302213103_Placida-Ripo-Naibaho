@@ -16,5 +16,16 @@ namespace TP_MOD3_1302213103
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nama = textBox1.Text;
+            label1.Text = "Halo" + nama;
+        }
     }
 }
